@@ -1,0 +1,55 @@
+.footer__images {
+    display: flex;
+}
+
+@media only screen and (min-width: 993px) {
+    .footer__information {
+        flex-direction: row;
+    }
+
+    .footer__images {
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer__information {
+        flex-direction: row;
+    }
+
+    .footer__images {
+        flex-direction: row-reverse;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .cardImageContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__information .footer__information--email {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .footer__images {
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    #backgroundBody {
+        background-image: none;
+    }
+
+    .form__frame {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}

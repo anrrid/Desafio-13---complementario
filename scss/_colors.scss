@@ -1,0 +1,42 @@
+.form__frame {
+    background: rgba(0, 0, 0, .3);
+}
+
+.h1 {
+    color: $primary-color;
+}
+
+.h2,
+.h3 {
+    color: $light-primary-color;
+}
+
+.dropdown-menu {
+    background-color: $light-primary-color;
+}
+
+.dropdown-menu li a {
+    color: $text;
+}
+
+.footer {
+    background-color: $dark-primary-color;
+}
+
+.footer__information--email {
+    color: $text;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, $accent-color, $dark-primary-color, $light-primary-color);
+}
+
+#submitButton {
+    background: $primary-color;
+    color: $text;
+}
+
+#resetButton {
+    background: $primary-color;
+    color: $text;
+}
