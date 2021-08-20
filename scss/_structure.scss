@@ -7,23 +7,32 @@
     text-align: right;
 }
 
+.navbar-brand {
+    margin-left: 60px;
+}
+
 .logo {
     width: 60px;
     height: 60px;
 }
 
+
 #backgroundBody {
-    background-image: url("../img/tea.png");
+    background-image: url(../img/food.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 60%;
+    background-size: 55%;
+}
+
+.container {
+    margin-left: 70px;
 }
 
 .presentation {
-    width: 50%;
-    margin-left: $margin * 4;
-    margin-right: $margin;
+    margin-left: $margin * 7;
+    margin-right: $margin * 7;
     margin-top: $margin * 7;
+    width: 50%;
 
     .presentation__title {
         margin-top: $spacing * 1.5;
@@ -48,8 +57,9 @@
 }
 
 .form {
-    width: 95%;
-    margin-left: $margin * 2;
+    width: auto;
+    margin-left: $margin * 7;
+    margin-right: $margin * 7;
     margin-top: $margin * 3;
 
     .form__frame {
@@ -58,8 +68,17 @@
         padding: 10px 20px;
         box-sizing: border-box;
         margin-top: $margin * 2;
+        margin-left: 0;
         border-radius: 7px;
         margin-bottom: 20px;
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+
+    p {
+        margin-left: 0;
     }
 }
 

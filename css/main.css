@@ -22,6 +22,9 @@ body {
   .footer .footer__information--email {
     font-weight: bold; }
 
+.h1 {
+  font-weight: bold; }
+
 .dropdown-menu {
   text-align: right;
   border: none; }
@@ -29,21 +32,27 @@ body {
 .nav-item {
   text-align: right; }
 
+.navbar-brand {
+  margin-left: 60px; }
+
 .logo {
   width: 60px;
   height: 60px; }
 
 #backgroundBody {
-  background-image: url("../img/tea.png");
+  background-image: url(../img/food.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 60%; }
+  background-size: 55%; }
+
+.container {
+  margin-left: 70px; }
 
 .presentation {
-  width: 50%;
-  margin-left: 40px;
-  margin-right: 10px;
-  margin-top: 70px; }
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 70px;
+  width: 50%; }
   .presentation .presentation__title {
     margin-top: 1.5rem; }
   .presentation .introduction__summary {
@@ -57,8 +66,9 @@ body {
       margin-bottom: 1.5rem; }
 
 .form {
-  width: 95%;
-  margin-left: 20px;
+  width: auto;
+  margin-left: 70px;
+  margin-right: 70px;
   margin-top: 30px; }
   .form .form__frame {
     width: 100%;
@@ -66,8 +76,13 @@ body {
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
+    margin-left: 0;
     border-radius: 7px;
     margin-bottom: 20px; }
+  .form h1 {
+    margin-left: 0; }
+  .form p {
+    margin-left: 0; }
 
 #formGender select {
   width: 100%;
