@@ -8,7 +8,12 @@
 }
 
 .navbar-brand {
-    margin-left: 60px;
+    margin-left: 0px;
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .logo {
@@ -18,14 +23,16 @@
 
 
 #backgroundBody {
-    background-image: url(../img/food.png);
+    background-image: url(../img/tea.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 55%;
+    background-size: 60%;
 }
 
 .container {
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .presentation {
