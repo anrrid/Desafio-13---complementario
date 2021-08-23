@@ -13,3 +13,38 @@ header {
 body {
     padding-top: 86px;
 }
+
+.sidenav {
+    height: auto;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(202, 47, 81, 0.671);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(46, 44, 44);
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.section__dictionary {
+    width: auto;
+    margin-left: 80px;
+    margin-right: 70px;
+    padding: 0px 10px;
+}
