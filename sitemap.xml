@@ -19,8 +19,12 @@
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>http://www.nutricion_rodriguez_ant/contact.html</loc>
+  <loc>http://www.nutricion_rodriguez_ant/dictionary.html</loc>
   <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://www.nutricion_rodriguez_ant/contact.html</loc>
+  <priority>0.20</priority>
 </url>
 
 
