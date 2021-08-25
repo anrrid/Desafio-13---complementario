@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "publicar informacion educativa sobre nutricion a la poblacion en general",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build-main": "node-sass --include-path scss scss/main.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-main\""
   },
-  "author": "",
+  "author": "rodriguez antonella",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
