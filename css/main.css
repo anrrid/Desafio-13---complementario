@@ -228,6 +228,13 @@ input {
 .h3 {
   color: #59B075; }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF; }
+
+.active {
+  text-decoration: underline;
+  font-weight: bold; }
+
 .dropdown-menu {
   background-color: #59B075; }
 

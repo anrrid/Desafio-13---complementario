@@ -11,6 +11,15 @@
     color: $light-primary-color;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .dropdown-menu {
     background-color: $light-primary-color;
 }
