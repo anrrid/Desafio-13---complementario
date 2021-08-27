@@ -75,46 +75,50 @@
     </header>
 
     <section class="form section ">
-        <h1 class="form h1">Contacto</h1>
-        <p class="form">Complete el siguiente formulario para que podamos comunicarnos</p>
 
-        <div class="form form__frame" method="POST" enctype="application/x-www-form-urlencoded">
-
-            <div id="formName">
-                <p>Nombre</p>
-                <input name="nombre" placeholder="Ingrese su nombre">
+        <div class="form__box">
+            <div>
+                <h1 class="form h1">Contacto</h1>
+                <p class="form">Complete el siguiente formulario para que podamos comunicarnos</p>
             </div>
+            <div class="form form__frame" method="POST" enctype="application/x-www-form-urlencoded">
+
+                <div id="formName">
+                    <p>Nombre</p>
+                    <input name="nombre" placeholder="Ingrese su nombre">
+                </div>
 
 
-            <div id="formSurname">
-                <p>Apellido</p>
-                <input name="apellido" placeholder="Ingrese su apellido">
+                <div id="formSurname">
+                    <p>Apellido</p>
+                    <input name="apellido" placeholder="Ingrese su apellido">
+                </div>
+
+                <div id="formGender">
+                    <p>Sexo</p>
+                    <select name="Sexo">
+                        <option value="hombre">Masculino</option>
+                        <option value="mujer">Femenino</option>
+                    </select>
+                </div>
+
+                <div id="formAge">
+                    <p>Edad</p>
+                    <input id="inputDate" class="form-select" type="date" required />
+                </div>
+
+                <div id="formTextArea">
+                    <p>Mensaje</p>
+                    <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+
+
+                <input type="submit" value="Enviar" id="submitButton" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#myModal"></button>
+
+                <input type="reset" value="borrar" id="resetButton">
+
             </div>
-
-            <div id="formGender">
-                <p>Sexo</p>
-                <select name="Sexo">
-                    <option value="hombre">Masculino</option>
-                    <option value="mujer">Femenino</option>
-                </select>
-            </div>
-
-            <div id="formAge">
-                <p>Edad</p>
-                <input id="inputDate" class="form-select" type="date" required />
-            </div>
-
-            <div id="formTextArea">
-                <p>Mensaje</p>
-                <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
-            </div>
-
-
-            <input type="submit" value="Enviar" id="submitButton" class="btn btn-primary" data-bs-toggle="modal"
-                data-bs-target="#myModal"></button>
-
-            <input type="reset" value="borrar" id="resetButton">
-
         </div>
     </section>
 
