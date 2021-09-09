@@ -129,7 +129,8 @@ body {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: .25rem; }
 
 #submitButton {
   height: 40px; }
@@ -142,7 +143,11 @@ input {
   height: 30px;
   padding: 7px;
   box-sizing: border-box;
-  border: none; }
+  border: none;
+  border-radius: .25rem; }
+
+select {
+  border-radius: .25rem; }
 
 .footer__image {
   height: 32px;

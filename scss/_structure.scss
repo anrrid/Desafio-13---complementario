@@ -101,6 +101,7 @@
     max-height: 200px;
     max-width: 100%;
     box-sizing: border-box;
+    border-radius: .25rem;
 }
 
 #submitButton {
@@ -117,6 +118,11 @@ input {
     padding: 7px;
     box-sizing: border-box;
     border: none;
+    border-radius: .25rem;
+}
+
+select {
+    border-radius: .25rem;
 }
 
 .footer__image {
