@@ -229,17 +229,17 @@ select {
     margin: 20px auto 20px auto;
     /*Grid*/ }
     .form .form__frame {
-      max-width: 250px;
+      max-width: 300px;
       padding: 15px 15px; }
     .form .form__box {
-      max-width: 250px;
+      max-width: 300px;
       margin-left: 0; }
     .form input {
-      width: 220px; }
+      width: 270px; }
     .form #inputDate .form-select {
       width: 105px; }
     .form #formTextArea textarea {
-      max-width: 220px; }
+      max-width: 270px; }
     .form #formGender {
       grid-row: 3;
       grid-column: 1/3; }
