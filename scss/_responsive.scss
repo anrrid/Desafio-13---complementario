@@ -55,6 +55,10 @@
         }
     }
 
+    .dictionary__text {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -111,4 +115,17 @@
             grid-column: 1/3;
         }
     }
+
+    /*Margenes para textos*/
+
+    .presentation {
+        margin: 40px 70px 40px 40px;
+        width: 70%
+    }
+
+    .presentation__dictionary {
+        margin: 40px 70px 40px 70px;
+        width: 70%
+    }
+
 }
