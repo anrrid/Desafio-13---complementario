@@ -74,57 +74,59 @@
         </nav>
     </header>
 
-    <section class="form section ">
+    <section class="form">
 
-        <div class="form__box">
+        <div class="form__box ">
             <div>
                 <h1 class="form h1">Contacto</h1>
                 <p class="form">Complete el siguiente formulario para que podamos comunicarnos</p>
             </div>
-            <div class="form form__frame" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="containerFormIframe">
+                <div class="form form__frame" method="POST" enctype="application/x-www-form-urlencoded">
 
-                <div id="formName">
-                    <p>Nombre</p>
-                    <input name="nombre" placeholder="Ingrese su nombre">
+                    <div id="formName">
+                        <p>Nombre</p>
+                        <input name="nombre" placeholder="Ingrese su nombre">
+                    </div>
+
+
+                    <div id="formSurname">
+                        <p>Apellido</p>
+                        <input name="apellido" placeholder="Ingrese su apellido">
+                    </div>
+
+                    <div id="formGender">
+                        <p>Sexo</p>
+                        <select name="Sexo">
+                            <option value="hombre">Masculino</option>
+                            <option value="mujer">Femenino</option>
+                        </select>
+                    </div>
+
+                    <div id="formAge">
+                        <p>Edad</p>
+                        <input id="inputDate" class="form-select" type="date" required />
+                    </div>
+
+                    <div id="formTextArea">
+                        <p>Mensaje</p>
+                        <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </div>
+
+
+                    <input type="submit" value="Enviar" id="submitButton" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#myModal"></button>
+
+                    <input type="reset" value="borrar" id="resetButton">
+
                 </div>
-
-
-                <div id="formSurname">
-                    <p>Apellido</p>
-                    <input name="apellido" placeholder="Ingrese su apellido">
+                <div class=" iframe__box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2492971071965!2d-58.400414984217115!3d-34.59785706469621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca943b03c3d7%3A0x4aaa7acded4ae7d3!2sFacultad%20de%20Medicina%2C%20Universidad%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1631898338265!5m2!1ses!2sar"
+                        class="iframe__map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-
-                <div id="formGender">
-                    <p>Sexo</p>
-                    <select name="Sexo">
-                        <option value="hombre">Masculino</option>
-                        <option value="mujer">Femenino</option>
-                    </select>
-                </div>
-
-                <div id="formAge">
-                    <p>Edad</p>
-                    <input id="inputDate" class="form-select" type="date" required />
-                </div>
-
-                <div id="formTextArea">
-                    <p>Mensaje</p>
-                    <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
-                </div>
-
-
-                <input type="submit" value="Enviar" id="submitButton" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#myModal"></button>
-
-                <input type="reset" value="borrar" id="resetButton">
-
             </div>
-        </div>
-        <div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2492971071965!2d-58.400414984217115!3d-34.59785706469621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca943b03c3d7%3A0x4aaa7acded4ae7d3!2sFacultad%20de%20Medicina%2C%20Universidad%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1631898338265!5m2!1ses!2sar"
-                class="row rowIframe mb-3" width="400" height="300" style="border:0;" allowfullscreen=""
-                loading="lazy"></iframe>
+
         </div>
     </section>
 

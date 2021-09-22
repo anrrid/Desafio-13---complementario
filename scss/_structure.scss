@@ -139,3 +139,16 @@ select {
 .dictionary__text {
     width: 50%;
 }
+
+/*mapa*/
+
+.containerFormIframe {
+    .iframe__box {
+        background: rgba(0, 0, 0, 0.027);
+        border-radius: 10px;
+
+        iframe {
+            border-radius: 10px;
+        }
+    }
+}
