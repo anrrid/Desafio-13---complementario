@@ -19,6 +19,10 @@
     font-weight: bold;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FFFD62;
+}
+
 .dropdown-menu {
     background-color: $light-primary-color;
 }
