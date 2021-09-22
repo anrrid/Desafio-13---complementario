@@ -45,8 +45,14 @@
         margin-top: $spacing * 1.5;
     }
 
+    .introduction {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .introduction__summary {
         margin-top: $spacing * 0.5;
+        margin-bottom: $spacing *2;
 
         .introduction__paragraph--first {
             margin-top: $spacing * 1.5;
@@ -151,4 +157,12 @@ select {
             border-radius: 10px;
         }
     }
+}
+
+/*img del index*/
+
+.card__index {
+    width: inherit;
+    max-width: 300px;
+    padding: 10px;
 }
